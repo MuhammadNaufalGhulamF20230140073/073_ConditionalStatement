@@ -12,6 +12,8 @@ cin >> nFisika;
 
 nRerata = (nMatematika+nFisika)/2;
 
+cout << "Nilai Rata Rata adalah : " << nRerata << endl;
+
 if (nRerata > 60 || nMatematika > 70){
     status = "Lulus";
 }
